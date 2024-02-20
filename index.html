@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    
+
+    <link rel="stylesheet" href="digital-7/digital-7 (mono).ttf">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @font-face {
+            font-family: digitalFont;
+            src: url("digital-7/digital-7.ttf");
+        }
+        #display{
+            font-style:digitalFont; 
+        }
+    </style>
+</head>
+
+<body>
+
+        <h1>A SIMPLE CALCULATOR</h1>
+
+    <div class="container">
+        <div class="display">
+            <div class="inner"><input  type="text" id="display"></input></div>
+        </div>
+        <div class="button">
+            <div class="col_1">
+                <div class="row_1">
+                    <button class="btn_box" id="7">
+                        <p class="text">7</p>
+                    </button>
+                    <button class="btn_box" id="8">
+                        <p class="text">8</p>
+                    </button>
+                    <button class="btn_box" id="9">
+                        <p class="text">9</p>
+                    </button>
+                </div>
+                <div class="row_2">
+                    <button class="btn_box" id="4">
+                        <p class="text">4</p>
+                    </button>
+                    <button class="btn_box" id="5">
+                        <p class="text">5</p>
+                    </button>
+                    <button class="btn_box" id="6">
+                        <p class="text">6</p>
+                    </button>
+                </div>
+                <div class="row_3">
+                    <button class="btn_box" id="1">
+                        <p class="text">1</p>
+                    </button>
+                    <button class="btn_box" id="2">
+                        <p class="text">2</p>
+                    </button>
+                    <button class="btn_box" id="3">
+                        <p class="text">3</p>
+                    </button>
+                </div>
+                <div class="row_4">
+                    <button class="btn_box">
+                        <p class="text"></p>
+                    </button>
+                    <button class="btn_box" id="0">
+                        <p class="text">0</p>
+                    </button>
+                    <button class="btn_box">
+                        <p class="text"><strong>.</strong></p>
+                    </button>
+                </div>
+
+            </div>
+            <div class="col_2">
+                <div class="row_1">
+                    <button class="btn_box" id="backspace">
+                        <p class="text">&larr;</p>
+                    </button>
+                    <button class="btn_box" id="clear">
+                        <p class="text">AC</p>
+                    </button>
+                </div>
+                <div class="row_2">
+                    <button class="btn_box" id="multiply">
+                        <p class="text"><strong>&times;</strong></p>
+                    </button>
+                    <button class="btn_box" id="divide">
+                        <p class="text"><strong>/</strong></p>
+                    </button>
+                </div>
+                <div class="row_3">
+                    <button class="btn_box" id="plus">
+                        <p class="text"><strong>+</strong></p>
+                    </button>
+                    <button class="btn_box" id="minus">
+                        <p class="text"><strong>-</strong></p>
+                    </button>
+                </div>
+                <div class="row_4">
+                    <button class="btn_box">
+                        <p class="text"></p>
+                    </button>
+                    <button class="btn_box" id="equal" >
+                        <p class="text"><strong>=</strong></p>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
